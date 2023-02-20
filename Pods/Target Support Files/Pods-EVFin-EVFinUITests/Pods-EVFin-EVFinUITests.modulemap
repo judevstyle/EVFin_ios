@@ -1,0 +1,6 @@
+framework module Pods_EVFin_EVFinUITests {
+  umbrella header "Pods-EVFin-EVFinUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

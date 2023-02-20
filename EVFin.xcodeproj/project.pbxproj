@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		187735B5299127BF00249016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187735B4299127BF00249016 /* AppDelegate.swift */; };
-		187735B7299127BF00249016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187735B6299127BF00249016 /* SceneDelegate.swift */; };
 		187735B9299127BF00249016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187735B8299127BF00249016 /* ViewController.swift */; };
 		187735BC299127BF00249016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187735BA299127BF00249016 /* Main.storyboard */; };
 		187735BE299127C200249016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187735BD299127C200249016 /* Assets.xcassets */; };
@@ -16,6 +15,20 @@
 		187735CC299127C200249016 /* EVFinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187735CB299127C200249016 /* EVFinTests.swift */; };
 		187735D6299127C300249016 /* EVFinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187735D5299127C300249016 /* EVFinUITests.swift */; };
 		187735D8299127C300249016 /* EVFinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187735D7299127C300249016 /* EVFinUITestsLaunchTests.swift */; };
+		18D50C4D2996A41F00E1F822 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D50C4C2996A41F00E1F822 /* GoogleService-Info.plist */; };
+		18D50C532996AD5000E1F822 /* BluetoothPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C522996AD5000E1F822 /* BluetoothPermission */; };
+		18D50C552996AD5000E1F822 /* CameraPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C542996AD5000E1F822 /* CameraPermission */; };
+		18D50C572996AD5000E1F822 /* LocationAlwaysPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C562996AD5000E1F822 /* LocationAlwaysPermission */; };
+		18D50C592996AD5000E1F822 /* LocationWhenInUsePermission in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C582996AD5000E1F822 /* LocationWhenInUsePermission */; };
+		18D50C5B2996AD5000E1F822 /* MicrophonePermission in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C5A2996AD5000E1F822 /* MicrophonePermission */; };
+		18D50C5D2996AD5000E1F822 /* NotificationPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C5C2996AD5000E1F822 /* NotificationPermission */; };
+		18D50C5F2996AD5000E1F822 /* PhotoLibraryPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C5E2996AD5000E1F822 /* PhotoLibraryPermission */; };
+		18D50C612996AD5000E1F822 /* TrackingPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C602996AD5000E1F822 /* TrackingPermission */; };
+		18D50C642996AD7600E1F822 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C632996AD7600E1F822 /* NVActivityIndicatorView */; };
+		18D50C662996AD7600E1F822 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 18D50C652996AD7600E1F822 /* NVActivityIndicatorViewExtended */; };
+		40FA9E3D06EC971F96E2D2C6 /* Pods_EVFin_EVFinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B8528C5C9DFEE42319D67C /* Pods_EVFin_EVFinUITests.framework */; };
+		68FBAFA82B71E9F93621A0E0 /* Pods_EVFinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF027CFB1073FD6C5D1D49C /* Pods_EVFinTests.framework */; };
+		DBE847077ED8CD60FCF779D7 /* Pods_EVFin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729AFE7A82526BDDA6B55B8E /* Pods_EVFin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B4B7FF29E9D2A7CD22573C6 /* Pods-EVFin-EVFinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVFin-EVFinUITests.release.xcconfig"; path = "Target Support Files/Pods-EVFin-EVFinUITests/Pods-EVFin-EVFinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		187735B1299127BF00249016 /* EVFin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVFin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187735B4299127BF00249016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		187735B6299127BF00249016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		187735B8299127BF00249016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		187735BB299127BF00249016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187735BD299127C200249016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,15 @@
 		187735D1299127C300249016 /* EVFinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVFinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187735D5299127C300249016 /* EVFinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVFinUITests.swift; sourceTree = "<group>"; };
 		187735D7299127C300249016 /* EVFinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVFinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18D50C4C2996A41F00E1F822 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A174F6DC986157CEE6E43E7 /* Pods-EVFin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVFin.release.xcconfig"; path = "Target Support Files/Pods-EVFin/Pods-EVFin.release.xcconfig"; sourceTree = "<group>"; };
+		2EF027CFB1073FD6C5D1D49C /* Pods_EVFinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVFinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABA7F31221ECECD89B92EAC /* Pods-EVFinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVFinTests.release.xcconfig"; path = "Target Support Files/Pods-EVFinTests/Pods-EVFinTests.release.xcconfig"; sourceTree = "<group>"; };
+		729AFE7A82526BDDA6B55B8E /* Pods_EVFin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVFin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B391E0B1FAC9B07891367532 /* Pods-EVFin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVFin.debug.xcconfig"; path = "Target Support Files/Pods-EVFin/Pods-EVFin.debug.xcconfig"; sourceTree = "<group>"; };
+		BB78D57AAFD519A30FE92DD5 /* Pods-EVFinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVFinTests.debug.xcconfig"; path = "Target Support Files/Pods-EVFinTests/Pods-EVFinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA071D80E2D169DEE32662D8 /* Pods-EVFin-EVFinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EVFin-EVFinUITests.debug.xcconfig"; path = "Target Support Files/Pods-EVFin-EVFinUITests/Pods-EVFin-EVFinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B8528C5C9DFEE42319D67C /* Pods_EVFin_EVFinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVFin_EVFinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D50C662996AD7600E1F822 /* NVActivityIndicatorViewExtended in Frameworks */,
+				18D50C532996AD5000E1F822 /* BluetoothPermission in Frameworks */,
+				18D50C552996AD5000E1F822 /* CameraPermission in Frameworks */,
+				18D50C572996AD5000E1F822 /* LocationAlwaysPermission in Frameworks */,
+				18D50C5B2996AD5000E1F822 /* MicrophonePermission in Frameworks */,
+				18D50C5F2996AD5000E1F822 /* PhotoLibraryPermission in Frameworks */,
+				18D50C612996AD5000E1F822 /* TrackingPermission in Frameworks */,
+				18D50C642996AD7600E1F822 /* NVActivityIndicatorView in Frameworks */,
+				DBE847077ED8CD60FCF779D7 /* Pods_EVFin.framework in Frameworks */,
+				18D50C5D2996AD5000E1F822 /* NotificationPermission in Frameworks */,
+				18D50C592996AD5000E1F822 /* LocationWhenInUsePermission in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FBAFA82B71E9F93621A0E0 /* Pods_EVFinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FA9E3D06EC971F96E2D2C6 /* Pods_EVFin_EVFinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +118,8 @@
 				187735CA299127C200249016 /* EVFinTests */,
 				187735D4299127C300249016 /* EVFinUITests */,
 				187735B2299127BF00249016 /* Products */,
+				B75A3BB775F15DB3E98F6F16 /* Pods */,
+				DF86B189D2C1AA6E04B52AFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +137,11 @@
 			isa = PBXGroup;
 			children = (
 				187735B4299127BF00249016 /* AppDelegate.swift */,
-				187735B6299127BF00249016 /* SceneDelegate.swift */,
 				187735B8299127BF00249016 /* ViewController.swift */,
 				187735BA299127BF00249016 /* Main.storyboard */,
 				187735BD299127C200249016 /* Assets.xcassets */,
 				187735BF299127C200249016 /* LaunchScreen.storyboard */,
+				18D50C4C2996A41F00E1F822 /* GoogleService-Info.plist */,
 				187735C2299127C200249016 /* Info.plist */,
 			);
 			path = EVFin;
@@ -127,6 +164,29 @@
 			path = EVFinUITests;
 			sourceTree = "<group>";
 		};
+		B75A3BB775F15DB3E98F6F16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B391E0B1FAC9B07891367532 /* Pods-EVFin.debug.xcconfig */,
+				1A174F6DC986157CEE6E43E7 /* Pods-EVFin.release.xcconfig */,
+				CA071D80E2D169DEE32662D8 /* Pods-EVFin-EVFinUITests.debug.xcconfig */,
+				0B4B7FF29E9D2A7CD22573C6 /* Pods-EVFin-EVFinUITests.release.xcconfig */,
+				BB78D57AAFD519A30FE92DD5 /* Pods-EVFinTests.debug.xcconfig */,
+				4ABA7F31221ECECD89B92EAC /* Pods-EVFinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF86B189D2C1AA6E04B52AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729AFE7A82526BDDA6B55B8E /* Pods_EVFin.framework */,
+				F6B8528C5C9DFEE42319D67C /* Pods_EVFin_EVFinUITests.framework */,
+				2EF027CFB1073FD6C5D1D49C /* Pods_EVFinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +194,30 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187735DB299127C300249016 /* Build configuration list for PBXNativeTarget "EVFin" */;
 			buildPhases = (
+				92F3D7BAE7A979904CEA6E55 /* [CP] Check Pods Manifest.lock */,
 				187735AD299127BF00249016 /* Sources */,
 				187735AE299127BF00249016 /* Frameworks */,
 				187735AF299127BF00249016 /* Resources */,
+				354A0C1ACB8674E7197213E1 /* [CP] Embed Pods Frameworks */,
+				CB85A106EF8BB7F50AEE2225 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = EVFin;
+			packageProductDependencies = (
+				18D50C522996AD5000E1F822 /* BluetoothPermission */,
+				18D50C542996AD5000E1F822 /* CameraPermission */,
+				18D50C562996AD5000E1F822 /* LocationAlwaysPermission */,
+				18D50C582996AD5000E1F822 /* LocationWhenInUsePermission */,
+				18D50C5A2996AD5000E1F822 /* MicrophonePermission */,
+				18D50C5C2996AD5000E1F822 /* NotificationPermission */,
+				18D50C5E2996AD5000E1F822 /* PhotoLibraryPermission */,
+				18D50C602996AD5000E1F822 /* TrackingPermission */,
+				18D50C632996AD7600E1F822 /* NVActivityIndicatorView */,
+				18D50C652996AD7600E1F822 /* NVActivityIndicatorViewExtended */,
+			);
 			productName = EVFin;
 			productReference = 187735B1299127BF00249016 /* EVFin.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187735DE299127C300249016 /* Build configuration list for PBXNativeTarget "EVFinTests" */;
 			buildPhases = (
+				BF7004DC7574598949632A4C /* [CP] Check Pods Manifest.lock */,
 				187735C3299127C200249016 /* Sources */,
 				187735C4299127C200249016 /* Frameworks */,
 				187735C5299127C200249016 /* Resources */,
@@ -169,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187735E1299127C300249016 /* Build configuration list for PBXNativeTarget "EVFinUITests" */;
 			buildPhases = (
+				D2884010297B9CB84531FAA0 /* [CP] Check Pods Manifest.lock */,
 				187735CD299127C300249016 /* Sources */,
 				187735CE299127C300249016 /* Frameworks */,
 				187735CF299127C300249016 /* Resources */,
+				188E431A2C5F8180E6B8ED14 /* [CP] Embed Pods Frameworks */,
+				3B18881E1EDD7A766052579E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +294,10 @@
 				Base,
 			);
 			mainGroup = 187735A8299127BF00249016;
+			packageReferences = (
+				18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */,
+				18D50C622996AD7600E1F822 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			productRefGroup = 187735B2299127BF00249016 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187735C1299127C200249016 /* LaunchScreen.storyboard in Resources */,
+				18D50C4D2996A41F00E1F822 /* GoogleService-Info.plist in Resources */,
 				187735BE299127C200249016 /* Assets.xcassets in Resources */,
 				187735BC299127BF00249016 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +337,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		188E431A2C5F8180E6B8ED14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVFin-EVFinUITests/Pods-EVFin-EVFinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVFin-EVFinUITests/Pods-EVFin-EVFinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVFin-EVFinUITests/Pods-EVFin-EVFinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		354A0C1ACB8674E7197213E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVFin/Pods-EVFin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVFin/Pods-EVFin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVFin/Pods-EVFin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B18881E1EDD7A766052579E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVFin-EVFinUITests/Pods-EVFin-EVFinUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVFin-EVFinUITests/Pods-EVFin-EVFinUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVFin-EVFinUITests/Pods-EVFin-EVFinUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F3D7BAE7A979904CEA6E55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EVFin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7004DC7574598949632A4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EVFinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB85A106EF8BB7F50AEE2225 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVFin/Pods-EVFin-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EVFin/Pods-EVFin-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EVFin/Pods-EVFin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2884010297B9CB84531FAA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EVFin-EVFinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		187735AD299127BF00249016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +481,6 @@
 			files = (
 				187735B9299127BF00249016 /* ViewController.swift in Sources */,
 				187735B5299127BF00249016 /* AppDelegate.swift in Sources */,
-				187735B7299127BF00249016 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,18 +652,23 @@
 		};
 		187735DC299127C300249016 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B391E0B1FAC9B07891367532 /* Pods-EVFin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAZJ35K4ZP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EVFin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EVFin;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,18 +684,23 @@
 		};
 		187735DD299127C300249016 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A174F6DC986157CEE6E43E7 /* Pods-EVFin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAZJ35K4ZP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EVFin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EVFin;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,6 +716,7 @@
 		};
 		187735DF299127C300249016 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB78D57AAFD519A30FE92DD5 /* Pods-EVFinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +736,7 @@
 		};
 		187735E0299127C300249016 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABA7F31221ECECD89B92EAC /* Pods-EVFinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +756,7 @@
 		};
 		187735E2299127C300249016 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA071D80E2D169DEE32662D8 /* Pods-EVFin-EVFinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +774,7 @@
 		};
 		187735E3299127C300249016 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4B7FF29E9D2A7CD22573C6 /* Pods-EVFin-EVFinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -596,6 +830,78 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/PermissionsKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		18D50C622996AD7600E1F822 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18D50C522996AD5000E1F822 /* BluetoothPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = BluetoothPermission;
+		};
+		18D50C542996AD5000E1F822 /* CameraPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = CameraPermission;
+		};
+		18D50C562996AD5000E1F822 /* LocationAlwaysPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = LocationAlwaysPermission;
+		};
+		18D50C582996AD5000E1F822 /* LocationWhenInUsePermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = LocationWhenInUsePermission;
+		};
+		18D50C5A2996AD5000E1F822 /* MicrophonePermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = MicrophonePermission;
+		};
+		18D50C5C2996AD5000E1F822 /* NotificationPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = NotificationPermission;
+		};
+		18D50C5E2996AD5000E1F822 /* PhotoLibraryPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = PhotoLibraryPermission;
+		};
+		18D50C602996AD5000E1F822 /* TrackingPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C512996AD5000E1F822 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = TrackingPermission;
+		};
+		18D50C632996AD7600E1F822 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C622996AD7600E1F822 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		18D50C652996AD7600E1F822 /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D50C622996AD7600E1F822 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 187735A9299127BF00249016 /* Project object */;
 }
